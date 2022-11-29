@@ -1,8 +1,9 @@
 import nerdImage from "../assets/images/illustration.png";
 import React from "react";
-import Button from "./Button";
 import { ButtonContainer, CardContainer, ContentContainer } from "../Styled_Components/Container.styles";
 import { H1, Image, P, Tag } from "../Styled_Components/Elements.styles";
+import { StyledTitle } from "../Styled_Components/Custom.styles";
+import Button from "./Button";
 
 const Card = () => {
   return (
