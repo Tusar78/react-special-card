@@ -13,7 +13,8 @@ const Container = styled.div`
 
 const CardContainer = styled.div`
   position: relative;
-  background: #1e1e1e;
+  /* background: #1e1e1e; */
+  background: ${({theme}) => theme.toggle === false ? 'red' : '#1e1e1e' };
   height: 350px;
   width: 550px;
   overflow: hidden;
