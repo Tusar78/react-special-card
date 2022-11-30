@@ -1,8 +1,11 @@
 import nerdImage from "../assets/images/illustration.png";
 import React from "react";
-import { ButtonContainer, CardContainer, ContentContainer } from "../Styled_Components/Container.styles";
+import {
+  ButtonContainer,
+  CardContainer,
+  ContentContainer,
+} from "../Styled_Components/Container.styles";
 import { H1, Image, P, Tag } from "../Styled_Components/Elements.styles";
-import { StyledTitle } from "../Styled_Components/Custom.styles";
 import Button from "./Button";
 
 const Card = () => {
@@ -10,9 +13,7 @@ const Card = () => {
     <CardContainer>
       <ContentContainer>
         <Tag bgColor="#4361ee">EXCLUSIVE</Tag>
-        <H1>
-          <StyledTitle text="React Styled Components" color="#fff" />
-        </H1>
+        <H1>React Styled Components</H1>
 
         <P>
           Exclusive React JS Tutorial on Styled Components where you will learn

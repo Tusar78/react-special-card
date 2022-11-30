@@ -1,7 +1,7 @@
 import React from "react";
 
-const Title = ({ className, text }) => {
-  return <span className={className}>{text}</span>;
+const Title = ({ text }) => {
+  return <span>{text}</span>;
 };
 
 export default Title;

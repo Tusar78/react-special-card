@@ -12,6 +12,7 @@ const Tag = styled.span`
 
 const H1 = styled.h1`
   color: #fff;
+  color: ${({theme}) => theme.toggle === false ? '#111' : '#fff' };
 `;
 
 const P = styled.p`
